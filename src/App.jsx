@@ -1,4 +1,5 @@
 import "./App.css";
+import DataPresentation from "./components/presentation/DataPresentation";
 import Counter from "./components/useContext/counter";
 import CounterContext from "./components/useContext/CounterContext";
 import CalculateFactorial from "./components/UseMemo";
@@ -9,9 +10,10 @@ function App() {
     <div>
       {/* <CalculateFactorial /> */}
       {/* <UseMemoParent/> */}
-      <CounterContext>
+      {/* <CounterContext>
         <Counter />
-      </CounterContext>
+      </CounterContext> */}
+      <DataPresentation />
     </div>
   );
 }
